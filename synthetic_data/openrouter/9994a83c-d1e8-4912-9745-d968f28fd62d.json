@@ -1,0 +1,15 @@
+{
+  "id": "9994a83c-d1e8-4912-9745-d968f28fd62d",
+  "timestamp": "2025-08-05T21:32:38.544291",
+  "provider": "openrouter",
+  "prompt": "Write a one-sentence story about the future.",
+  "response": "In the year 2250, humans and AI collaborated to terraform Mars, creating a new home for humanity under a sky tinged with the green of genetically engineered plants.",
+  "token_usage": null,
+  "cost": null,
+  "metadata": {
+    "duration": 3.4044320583343506,
+    "kwargs": {
+      "temperature": 0.9
+    }
+  }
+}
