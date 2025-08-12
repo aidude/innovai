@@ -1,0 +1,16 @@
+{
+  "id": "8dfe357f-f30e-4896-94cd-3e914a6aa967",
+  "timestamp": "2025-08-05T21:46:10.759643",
+  "provider": "openrouter",
+  "prompt": "Write a haiku about coding.",
+  "response": "Syntax flows like water,\nLogic weaves through the night,\nCode brings dreams to life.",
+  "token_usage": null,
+  "cost": null,
+  "metadata": {
+    "duration": 2.5900421142578125,
+    "kwargs": {
+      "temperature": 0.7
+    },
+    "model": "liquid/lfm-7b"
+  }
+}

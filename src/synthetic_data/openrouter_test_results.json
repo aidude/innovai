@@ -1,0 +1,20 @@
+{
+  "test_cases": [
+    {
+      "model": "openai/gpt-4-turbo-preview",
+      "prompt": "Write a short poem about artificial intelligence.",
+      "temperature": 0.7
+    },
+    {
+      "model": "openai/gpt-4",
+      "prompt": "Explain quantum computing to a 5-year-old.",
+      "temperature": 0.8
+    },
+    {
+      "model": "openai/gpt-4-turbo-preview",
+      "prompt": "Write a one-sentence story about the future.",
+      "temperature": 0.9
+    }
+  ],
+  "provider_stats": {}
+}

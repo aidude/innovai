@@ -1,0 +1,2176 @@
+{
+  "summary": {
+    "total_requests": 157,
+    "total_tokens": 0,
+    "providers": {
+      "openrouter": {
+        "total_requests": 28,
+        "total_tokens": 0,
+        "total_cost": 0.0
+      },
+      "openai": {
+        "total_requests": 129,
+        "total_tokens": 0,
+        "total_cost": 0.0
+      }
+    }
+  },
+  "entries": {
+    "2006c89e-0b20-4f80-99c1-fe06b8a38abd": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T21:30:44.220152",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 6.972001075744629,
+        "kwargs": {
+          "temperature": 0.7
+        }
+      }
+    },
+    "201ea45c-80d3-4310-91c2-4b1b9c11ad88": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T21:31:40.486750",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 8.32244086265564,
+        "kwargs": {
+          "temperature": 0.7
+        }
+      }
+    },
+    "2612b79e-8e44-40de-93fc-d4917d296975": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T21:32:31.279018",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 7.878211259841919,
+        "kwargs": {
+          "temperature": 0.7
+        }
+      }
+    },
+    "9a552265-f828-4df7-ab7e-d8478151882e": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T21:32:35.136372",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 3.855079174041748,
+        "kwargs": {
+          "temperature": 0.8
+        }
+      }
+    },
+    "9994a83c-d1e8-4912-9745-d968f28fd62d": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T21:32:38.544446",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 3.4044320583343506,
+        "kwargs": {
+          "temperature": 0.9
+        }
+      }
+    },
+    "8dfe357f-f30e-4896-94cd-3e914a6aa967": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T21:46:10.760160",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 2.5900421142578125,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "1581ebf5-ad27-4c6b-ba54-c238ec2d6e0c": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T21:59:25.398222",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 7.931534051895142,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "d3026d78-c833-43d2-b2b5-81a1fb17f237": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-05T22:07:31.089315",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 11.621517181396484,
+        "kwargs": {
+          "temperature": 0.9
+        },
+        "model": "openai/gpt-4"
+      }
+    },
+    "a480c76a-c4da-496c-b963-0c59e9578546": {
+      "provider": "openai",
+      "timestamp": "2025-08-05T22:10:03.196149",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 10.546987056732178,
+        "kwargs": {
+          "temperature": 0.9
+        },
+        "model": "gpt-4"
+      }
+    },
+    "4784322c-e0b9-493d-b9b9-9fda50d65ec8": {
+      "provider": "openai",
+      "timestamp": "2025-08-05T22:15:35.865700",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 10.85551905632019,
+        "kwargs": {
+          "temperature": 0.9
+        },
+        "model": "gpt-4"
+      }
+    },
+    "631e0091-0e19-41fe-ad31-606dbfc34b7c": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:08:32.291750",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 9.104358196258545,
+        "kwargs": {
+          "temperature": 0.9
+        },
+        "model": "gpt-4o"
+      }
+    },
+    "e4809e8b-be1a-4982-811a-50996f58bd87": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:28:57.169056",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 12.395190000534058,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "cfd97802-0c51-494a-863a-1f519328f738": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:29:14.437924",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.267019033432007,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "d0c37781-6d87-43eb-912a-0b716ea6566c": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:29:29.167682",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.727061033248901,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "4572f9b9-c548-4753-99f9-86dfe6bdea27": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:29:44.535619",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.364995002746582,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e4dba616-8d6e-4455-910a-3b0b518b23f1": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:30:02.245354",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.70705509185791,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "71ea199e-3dac-4928-a19b-aca1df0093fb": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:50:41.986012",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 13.320351839065552,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "9fea6b49-0cc8-4b6a-a869-0c7f04fb7ae2": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:51:01.976681",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.988560914993286,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "7c49401c-a772-49c8-a188-1eb28a4b2810": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:51:19.895925",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.91560435295105,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "4d9290ff-68d2-4b71-88c5-990118ace44e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:51:38.425048",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.52457094192505,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "91deb850-315e-4ae0-bcd6-b6ef43dcaf8a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:51:58.329648",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.901262044906616,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "2bbf5b3c-c9a5-4ae8-9422-7ca0677b46d4": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:52:14.710021",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.37771224975586,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "12847693-8b06-4bff-a04e-3f10e37ab49f": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:52:39.413106",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 24.700683116912842,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "b3f63911-3324-43e6-9349-f7b288aabc6d": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:53:01.073355",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.656413078308105,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "de7cb60c-3641-47de-bff5-cf3344793f4e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:53:28.751923",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 27.67510986328125,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "97514dbb-6c07-4891-a3d8-c79bc3f97261": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:53:50.772550",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.016435146331787,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "b271d659-107b-4a52-ab30-80874b0f56ba": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:54:07.922885",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.144633054733276,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "cce127cb-d358-4317-9795-173f8bb61ca7": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:54:34.697875",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 26.77101707458496,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "58f6677b-d710-410e-a5c4-5884a5d706fb": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:54:54.418853",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.714781045913696,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e03522e1-5be6-4b6a-82e6-d37008f3677c": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:55:13.095842",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.67262101173401,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e567e751-0000-4670-a63d-b300724a8fce": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:55:35.943029",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.84294581413269,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "8e57601b-6aee-41f8-9e72-58e102e865f5": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:55:55.795886",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.84920310974121,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "de85c01e-76aa-40c5-b66e-bd72db9b91b4": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:56:19.602690",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 23.802457809448242,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "d9e6811b-6adc-4b40-b69f-4fd3cc76b38a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:56:45.255676",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 25.647627115249634,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "20e0c703-3507-4870-b23d-a1d708fe7601": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:57:06.744950",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.484456777572632,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "f25f4891-f485-4bf1-90d5-81a2521dabe8": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:57:25.392831",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.643015146255493,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "1208a7b2-0851-4e2b-ac96-da0f0a7117d9": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:57:53.089183",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 27.692676067352295,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "375fa14c-a49c-4cef-a030-cbdc6583d5d1": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:58:08.299125",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.204528093338013,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e4b5e4ff-a259-4dc3-b776-1939ccf05eba": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:58:27.725671",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.42247700691223,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "af188448-b329-4bba-98bc-f9bdbacc4550": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:58:43.854925",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.12627601623535,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "3bd81101-ac03-40e8-b105-1f9226cc31ee": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:58:59.625447",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.765369892120361,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "126ce0b9-b70f-4606-9853-96dc62d873a5": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:59:14.105224",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.475184202194214,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "dbc7635b-2c04-479d-b18c-8338c143d565": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:59:28.001015",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 13.890274047851562,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "46b92855-7a06-469f-ae15-7b063442f0f0": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T15:59:46.388832",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.38212776184082,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "cbfe7859-cbff-44ec-8065-2a3b82bc055d": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:00:04.308556",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.916386127471924,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "9194c14b-d486-4d94-be41-8221ce87bafc": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:00:21.053516",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.738795042037964,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "bf6145d1-1b02-4a28-af94-f868f9b5d0f3": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:00:38.457755",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.398162126541138,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e3fa2213-000a-4173-ac04-829a79de7a12": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:01:02.873447",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 24.410078048706055,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "eb3f8bd0-6407-41be-9cc0-d61a982b3d47": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:01:21.547496",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.66769003868103,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "02637133-fc89-460d-a14a-3b9d865ec08c": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:01:37.326345",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.773165225982666,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "debe5457-89ac-4f35-b653-d6d4ed9e8350": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:01:54.137308",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.804994106292725,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "a844ebc7-ea46-483b-8571-509e9c3ede03": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:02:12.021008",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.877568006515503,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "6e972600-1334-4df2-8fae-63699c8fe91e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:02:31.596119",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.569710731506348,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "2cc9cc21-d9ea-4930-a85a-453962928f54": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:02:49.519055",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.915192127227783,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "f0261692-d252-444b-bc84-e1bb5e32ccf6": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:03:08.358041",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.830746173858643,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "d1c50559-eb6e-454f-a92a-c19f496693f1": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:03:27.197793",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.834073781967163,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "aadfa888-d07e-43f9-be44-f194c7992033": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:03:38.874249",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 11.671425104141235,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "6a450972-4145-44ac-9d60-72b2cbcca50f": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:04:00.580082",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.699406147003174,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "1aa5603a-fff1-474c-ba24-13d4f4506d7f": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:04:29.614297",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 29.027264833450317,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "9951814d-8779-4809-b8c7-62cb0507586a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:04:51.658950",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.0370671749115,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "ae1f9262-bf0f-48fd-9fbe-c49d86ee8832": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:05:14.824019",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 23.155920028686523,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "141b85e7-ef47-473e-bfa4-7d1a36dda183": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:05:33.649659",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.818350791931152,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "52be10a0-6499-4005-aa48-d11a09daa7ec": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:05:54.556209",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 20.89708685874939,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "1abfa9b7-bb2e-4649-b216-a6e220a50883": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:06:19.681030",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 25.119054079055786,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "8cb61445-0d95-4cd8-b4fb-e76fb5f9022a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:06:38.559486",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.870946884155273,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "b16bf577-606d-4767-b4dc-fa6690eec1de": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:07:00.762467",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.19607400894165,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "c1dceec1-4441-49e6-94f9-a1e3bfd8b62f": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:07:19.735163",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.9653058052063,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "1bc8d416-1cf3-41b0-ac44-0c73f05aaf42": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:07:37.571223",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.827263116836548,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "2e849817-1703-405f-aa94-82fe225cf9bb": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:07:55.859076",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.28143286705017,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "f0b4b769-5109-488d-8569-1547cd7957c3": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:08:18.293737",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.42794704437256,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "4f299d9b-05a9-4898-a6bc-db5e8a6cbc49": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:08:35.075000",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.77418327331543,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "9e8b0a76-6da4-41c8-8fc9-3861c030b7bd": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:08:58.002328",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.922916173934937,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "2b91a746-10bb-41a8-a320-87f7ced665f9": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:09:28.446231",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 30.4370698928833,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "7dd84652-c26c-4d33-b755-59d2042ae1d5": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:09:41.729164",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 13.277045965194702,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "51d11286-92e7-4158-8d96-f3bef801e5ae": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:10:04.001786",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.26412010192871,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "6f9cbaa9-a9c4-4d2e-97dc-17902fe64fa6": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:10:18.017752",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.00764513015747,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "15c52e11-7c04-487a-b207-970e1334445d": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:10:39.204063",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.177063941955566,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "2638fc93-a71f-437a-9b1d-0640f3d7ae51": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:10:57.286959",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.0747127532959,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "cdd67399-15f2-4bce-851d-2ba269f0f48a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:11:16.433037",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.139495849609375,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e924421c-b45c-4e47-97a8-9732d5656978": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:11:44.047387",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 27.60525894165039,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "c2a98183-1141-4bca-8057-dfe30ca1b612": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:12:01.979548",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.923758029937744,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "8d12dac1-91b9-4e93-9f4f-27a3e5d21fa2": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:12:16.545415",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.557680130004883,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "a4386eef-32c8-4769-ae4d-8d321637fe79": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:12:34.129993",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.575257062911987,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "56555c75-708a-41f3-8dc2-b8a6a675789e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:12:55.422764",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.28448987007141,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "76524f37-9616-4b02-a923-a545a2aa7aec": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:13:23.066721",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 27.633967876434326,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "46ac7b63-8de6-4bbf-8e96-00bebe18274a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:13:49.728682",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 26.651507139205933,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "354b3359-2737-41be-9948-ae6ae569475a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:14:17.387711",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 27.650318145751953,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "9914084d-542d-47c3-9fd4-db072b495b3c": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:14:51.636380",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 34.23852896690369,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "c726f16e-1f3d-450d-a935-3acde60f4a0e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:15:25.645678",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 34.00129199028015,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "52e50d72-28a3-4c90-9eb0-5095bbb01e7c": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:15:49.580151",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 23.92919087409973,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "1002e67e-58a9-4a3c-b984-fc90c13fb018": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:16:18.956603",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 29.366797924041748,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e53bca9d-4a18-4237-842a-f3fa8085fe74": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:16:47.793730",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 28.828613996505737,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "7b1e54df-2505-4d17-893f-00821053db15": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:17:16.147246",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 28.34331703186035,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "3eafaf05-f68c-4076-a5e3-8a6f701da5c8": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:17:46.139530",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 29.982606172561646,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "fa8c6d7f-437d-4603-8b6d-391a7bf132fa": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:18:14.615648",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 28.467007875442505,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "170ef73d-0553-4c81-bdbc-578b3d6f17e7": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:18:39.731649",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 25.10625982284546,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "9a726b2e-a243-439c-b432-77e814fa84e9": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:19:13.171666",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 33.42909288406372,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "955e7248-61ac-4f1c-b90d-2f4b8e707db0": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:19:44.005878",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 30.82377600669861,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "bb59c096-6b12-464c-abba-d6111559be2e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:20:05.614503",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.59987711906433,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "a66b1d8b-78a5-4de3-99a1-b9b38d553182": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:20:33.472793",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 27.85088610649109,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e7b7f3d7-0089-4dc5-aaf0-35ed3d1bd5ab": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:20:53.852880",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 20.369107246398926,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "8782dd02-d6df-4a89-8836-7978cb914203": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:21:06.857762",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 12.996330976486206,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "c0c87a0e-806f-40c5-9b2a-f44bf4e575b5": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:21:33.787171",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 26.920740127563477,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "31c75b0e-0a1f-4ec0-83ec-e92ba8fc1829": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:21:47.405053",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 13.60761022567749,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "bc72abc3-ffbb-4ac1-bba0-ab6eab4b963b": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:22:07.376006",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.95957612991333,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "07bf5e43-888a-4529-bd30-5cf14678a3c8": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:22:26.317913",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.932262182235718,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "c8490d36-8fd3-4034-8d6c-2471d11cf72a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:22:41.245323",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.917327880859375,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e29f0e91-699b-4c15-b8de-7933e8c2f27e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:22:58.476135",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.221065044403076,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "b9fa46d0-e612-42be-ac3b-f52433555fa6": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:23:20.236502",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.75083065032959,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "3769f9ff-e449-4148-8cbf-bf718451fae8": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:23:32.875023",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 12.627013921737671,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "cdfd21b6-885e-486c-b372-23e9734fe950": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:23:49.880951",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.997586011886597,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "81c5dd3a-e9c0-442b-b28e-5d26db6366b9": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:24:09.115555",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.2238347530365,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "c9ace44d-48e2-4cb8-99b5-b4a27473efa6": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:24:31.561139",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 22.434261798858643,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "946e4bcf-3d9a-443b-be7a-72e547a4666e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:24:51.323325",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.750827074050903,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "a7db71ad-0111-43e6-af7a-9eb3e4a6328e": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:25:09.558881",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.224382877349854,
+        "kwargs": {
+          "temperature": 0.7
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "c53d8155-0b30-4e38-aba7-5fe3557983a7": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:49:24.253053",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 12.256878852844238,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "4328a010-0eb5-4d7c-954c-28ccf3fcf3d3": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:49:50.855837",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 26.593844890594482,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "d32fc896-dc13-4065-a8e6-7432183f62e6": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:50:27.444632",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 36.559566259384155,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "e69313d5-8295-4056-954a-449cf5c28539": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:50:48.583353",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.099143981933594,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "f0f46281-4f84-45b7-a39b-cfe0a802675b": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:51:05.215530",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.54419994354248,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "a26856cf-46ba-42d6-8cc6-08adb62c1791": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:51:24.428432",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.114840030670166,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "0414e177-8ef5-4f94-9805-a84886c95b89": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:51:50.237119",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 25.67772126197815,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "3f7322e9-713b-4963-912a-690761a9b395": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:52:16.910370",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 26.499160051345825,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "74a3515a-3a1f-4730-ac34-67ad5a91a9d0": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:52:37.323708",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 20.263399124145508,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "44fe1ef2-aee1-4fc0-aae4-539c647ce5bd": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:52:51.909987",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.419968843460083,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "5e16a7d9-b8e1-44b1-a33f-1d0833392871": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:53:07.370333",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.316833019256592,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "f836da98-6bc1-4a92-a3b2-37248306e9e9": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:53:23.221688",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.67073106765747,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "bebc3b36-109d-4286-be22-e44646fc7398": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:53:44.030343",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 20.58929991722107,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "1ab4b983-7dd2-42c6-8934-5c97a1e44e78": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:54:25.710462",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 41.48559808731079,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "9070cf0e-9706-4f00-806b-35fd51da2b91": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:54:47.211245",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 21.19724178314209,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "56b780e2-6f7a-47d1-9317-d44cb706a178": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:55:06.089235",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 18.657018899917603,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "a3fba68f-b03f-41e6-9d9b-32fac294127a": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:55:20.180689",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 13.869471073150635,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "5de73aeb-d146-4959-8114-b298b65b5245": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:56:26.193024",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 65.7286913394928,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "6589b08b-919f-46b2-aaea-7ef9261b1937": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:56:44.234183",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 16.92112398147583,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "007b9077-f281-42f6-bf60-c0337c4a26f8": {
+      "provider": "openai",
+      "timestamp": "2025-08-07T16:57:04.349463",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 19.80720090866089,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "gpt-4-turbo"
+      }
+    },
+    "4c07dd99-e26e-4ebd-a768-49991e98973f": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:10:13.494993",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.595740795135498,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "0208caa2-00dd-482f-89a9-74c8983fc1a6": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:10:19.027555",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 5.5241618156433105,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "6fa1ceeb-1624-4f4a-b177-6976df5072c2": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:10:29.882698",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 10.82449197769165,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "729248cb-2de9-4b72-b40c-8b4a646a7e17": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:10:37.224056",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 7.289379835128784,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "ff9a047e-2dfc-4c95-b161-d079bfb5db60": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:10:50.570714",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 13.255101919174194,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "7ba03e38-8729-41d8-9694-b31e30bd4ef5": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:10:57.020478",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 6.388581037521362,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "746ae22e-df4e-4348-b2c0-56da96324f4e": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:11:03.580365",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 6.489187955856323,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "939a34bc-043e-4cbc-a7ac-879e16f0ddc9": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:11:19.241270",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 15.547273874282837,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "2ea425ae-855d-4174-b33c-1dd8c305af0a": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:11:31.149716",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 11.763694286346436,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "de2fbbca-41f1-4bbd-9424-9ffcddeb36c4": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:11:40.815031",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 9.540098667144775,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "cb784b6f-0aeb-4d05-a594-ff20b4481f26": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:11:48.119017",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 7.1503212451934814,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "e50aa884-e1c3-4386-b6b7-c698b795a3e5": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:11:58.660371",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 10.358711004257202,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "9838ab83-9783-41cb-afd4-821a6287027c": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:12:10.132428",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 11.301714181900024,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "b1e060df-304e-47c1-ae82-557fcd2554b9": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:12:22.317202",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 12.018524885177612,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "5c7ca134-6746-4cdb-858a-d753aadd5080": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:12:37.246748",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.741018295288086,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "bfe4d455-8171-4327-a0e4-5a9cd28e2130": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:12:54.627342",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 17.179299116134644,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "b6582fb2-bc7e-4e51-a239-daa7c3f06230": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:13:08.922929",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 14.086959838867188,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "7907dde2-0c67-4095-9b3d-994ca064f45b": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:13:16.897614",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 7.73624587059021,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "e45cb45f-b517-4ab7-b38c-c31fef93dc90": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:13:29.226270",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 12.036827802658081,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "0914085b-8501-41e4-9b5e-ef5d52fde496": {
+      "provider": "openrouter",
+      "timestamp": "2025-08-07T17:13:34.553565",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 5.084877014160156,
+        "kwargs": {
+          "temperature": 0.9,
+          "frequency_penalty": 0.7,
+          "presence_penalty": 0.7,
+          "top_p": 0.95
+        },
+        "model": "liquid/lfm-7b"
+      }
+    },
+    "a95bb5c7-ea38-4b49-8654-a7fd080fee75": {
+      "provider": "openai",
+      "timestamp": "2025-08-12T13:08:59.040179",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 25.76230502128601,
+        "kwargs": {
+          "temperature": 0.9
+        },
+        "model": "gpt-4"
+      }
+    },
+    "2c29e343-f83f-4e1c-94b0-b9808dcb8610": {
+      "provider": "openai",
+      "timestamp": "2025-08-12T13:09:12.587123",
+      "tokens": null,
+      "cost": null,
+      "metadata": {
+        "duration": 13.535314798355103,
+        "kwargs": {
+          "temperature": 0.9
+        },
+        "model": "gpt-4"
+      }
+    }
+  }
+}
