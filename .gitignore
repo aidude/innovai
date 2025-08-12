@@ -21,6 +21,12 @@ wheels/
 .installed.cfg
 *.egg
 
+# Project specific
+prompts/
+outputs/
+logs/
+synthetic_data/
+
 # IDE
 .idea/
 .vscode/
