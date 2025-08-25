@@ -23,6 +23,7 @@ wheels/
 
 # Project specific
 prompts/
+training_data/
 outputs/
 logs/
 synthetic_data/
