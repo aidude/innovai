@@ -1,10 +1,18 @@
 """
 Generator: creates new creativity dataset items using LLM APIs.
 
-- Prompts the model to produce (context, predictable, creative, meta_creative, surprise_source, domain)
-- You can request items by domain/topic.
-- Compatible with run_llm.py for batch processing
-- Outputs results in JSON format
+Generates structured items with:
+- context: scenario setup
+- predictable: conventional continuation
+- creative: surprising continuation
+- meta_creative: generalized insight
+- surprise_source: creativity technique
+- domain: specific field
+
+Features:
+- Domain/topic-based generation
+- Compatible with run_llm.py
+- JSON output format
 """
 import json
 import random
@@ -12,7 +20,7 @@ import time
 import argparse
 from pathlib import Path
 from typing import Dict
-from src.data_creation import LLMInterface
+from interface import LLMInterface
 
 SYSTEM = (
     "You are a dataset author creating compact, high-signal training examples "
@@ -62,23 +70,67 @@ def gen_item(llm: LLMInterface, topic: str, model: str = "gpt-4",
     
     Returns:
         Dict containing the generated item with metadata
+    
+    Raises:
+        ValueError: If LLM response is empty or invalid
+        json.JSONDecodeError: If response cannot be parsed as JSON
     """
+    # Pick a domain
     domain = random.choice(DOMAINS[topic])
+    
+    # Format user prompt
     user = TEMPLATE.format(topic=topic.replace("_"," "))
-    resp = llm.generate(
-        system_prompt=SYSTEM,
-        user_prompt=user + f"\nChoose domain='{domain}'.",
-        model=model,
-        temperature=temperature
-    )
-    text = resp.strip()
+    full_prompt = user + f"\nChoose domain='{domain}'."
+    
+    # Get provider from model name (assuming format: provider/model)
+    provider, model_name = model.split("/") if "/" in model else ("openai", model)
+    
+    # Create prompt messages with content type
+    messages = [
+        {
+            "role": "system",
+            "content": [{
+                "type": "text",
+                "text": SYSTEM
+            }]
+        },
+        {
+            "role": "user",
+            "content": [{
+                "type": "text",
+                "text": full_prompt
+            }]
+        }
+    ]
     
     try:
-        data = json.loads(text)
-    except json.JSONDecodeError:
-        # Cleanup and retry for common formatting issues
+        # Generate with llm interface
+        response = llm.generator.generate_single(
+            prompt=messages,
+            provider=provider,
+            temperature=temperature,  # Model is handled by the client
+            metadata={
+                'topic': topic,
+                'domain': domain
+            }
+        )
+        
+        # Extract text from response
+        if isinstance(response, dict):
+            text = response.get('response', '').strip()
+        else:
+            text = str(response).strip()
+        
+        # Ensure we have a response
+        if not text:
+            raise ValueError("Empty response from LLM")
+        
+        # Clean and parse JSON response
         text = text.strip().strip("```json").strip("```").strip()
         data = json.loads(text)
+        
+    except (ValueError, json.JSONDecodeError) as err:
+        raise ValueError(f"Failed to generate valid response: {str(err)}") from err
         
     # Add metadata
     data["difficulty"] = random.choice(["easy","medium","hard"])
@@ -119,14 +171,18 @@ def gen_item(llm: LLMInterface, topic: str, model: str = "gpt-4",
 def main():
     """Main entry point for generating creativity dataset items."""
     parser = argparse.ArgumentParser(description="Generate creativity dataset items")
+    
+    # Required arguments
     parser.add_argument("--topic", choices=list(DOMAINS.keys()), required=True,
                        help="Topic area to generate items for")
+    
+    # Optional arguments
     parser.add_argument("--n", type=int, default=5,
                        help="Number of items to generate")
     parser.add_argument("--out", default="generated_items.json",
                        help="Output JSON file path")
-    parser.add_argument("--model", default="gpt-4",
-                       help="Model to use for generation")
+    parser.add_argument("--model", default="openai/gpt-4-turbo",
+                       help="Model to use in format provider/model (e.g., openai/gpt-4-turbo)")
     parser.add_argument("--temperature", type=float, default=0.9,
                        help="Temperature for generation")
     args = parser.parse_args()
@@ -134,11 +190,20 @@ def main():
     # Create LLM interface
     llm = LLMInterface()
     
+    # Show available models
+    provider = args.model.split("/")[0] if "/" in args.model else "openai"
+    print(f"\nAvailable models for {provider}:")
+    for model in llm.list_models(provider):
+        print(f"  - {model}")
+    
     # Generate items
+    print(f"\nGenerating {args.n} items using {args.model}...")
     out = []
-    for _ in range(args.n):
+    for i in range(args.n):
+        print(f"\nGenerating item {i+1}/{args.n}...")
         out.append(gen_item(llm, args.topic, args.model, args.temperature))
-        time.sleep(0.3)  # gentle pacing
+        if i < args.n - 1:  # Don't sleep after the last item
+            time.sleep(0.3)  # gentle pacing
         
     # Format output
     dataset = {

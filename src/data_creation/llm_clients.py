@@ -31,7 +31,7 @@ debug_handler = logging.FileHandler(debug_log_file)
 debug_handler.setFormatter(formatter)
 debug_handler.setLevel(logging.DEBUG)
 api_logger.addHandler(debug_handler)
-from .rate_limiter import (
+from rate_limiter import (
     RateLimiter, APIError, RateLimitError, AuthenticationError,
     ModelNotFoundError, InvalidRequestError, APIConnectionError
 )
@@ -81,18 +81,32 @@ class OpenAIClient(LLMClient):
         )
         self.model = model
     
-    def generate_text(self, prompt: str, **kwargs) -> str:
+    def generate_text(self, prompt: Union[str, List[Dict]], **kwargs) -> str:
         """
         Generate text using OpenAI's API.
         
         Args:
-            prompt (str): The input prompt
+            prompt (Union[str, List[Dict]]): The input prompt or messages list
             **kwargs: Additional arguments for the API call
             
         Returns:
             str: Generated text response
         """
         try:
+            # Prepare messages
+            if isinstance(prompt, list):
+                messages = prompt  # Already in message format
+            else:
+                messages = [{
+                    "role": "user",
+                    "content": [{"type": "text", "text": prompt}]
+                }]
+                if "system_prompt" in kwargs:
+                    messages.insert(0, {
+                        "role": "system",
+                        "content": [{"type": "text", "text": kwargs.pop("system_prompt")}]
+                    })
+            
             # Log request details
             request_data = {
                 "provider": "openai",
@@ -104,10 +118,13 @@ class OpenAIClient(LLMClient):
             }
             api_logger.debug(f"OpenAI Request: {json.dumps(request_data, indent=2)}")
             
+            # Remove metadata from kwargs as it's not supported by the API
+            api_kwargs = {k: v for k, v in kwargs.items() if k != 'metadata'}
+            
             response = self.client.chat.completions.create(
                 model=self.model,
-                messages=[{"role": "user", "content": prompt}],
-                **kwargs
+                messages=messages,  # Use the properly formatted messages from above
+                **api_kwargs
             )
             
             # Get token usage

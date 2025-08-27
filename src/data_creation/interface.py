@@ -7,11 +7,11 @@ import random
 from pathlib import Path
 from difflib import SequenceMatcher
 
-from .config import config
-from .logging_utils import setup_logger
-from .error_handling import LLMError, ModelNotFoundError
-from .operations import DataGenerator
-from .llm_clients import create_llm_client
+from config import config
+from logging_utils import setup_logger
+from error_handling import LLMError, ModelNotFoundError
+from operations import DataGenerator
+from llm_clients import create_llm_client
 
 
 # Set up logger
@@ -24,11 +24,14 @@ class LLMInterface:
     # Available providers and their default models - consider moving to config
     PROVIDERS = {
         'openai': [
-            "gpt-4o",                 # GPT-4 Omni (fastest, multimodal, cost-efficient)
-            "gpt-4-turbo",            # Optimized GPT-4 (cheaper & faster than GPT-4)
-            "gpt-4",                  # Original GPT-4 (no longer updated)
-            "gpt-3.5-turbo",          # General-purpose model (great balance of speed & cost)
-            "gpt-3.5-turbo-16k"       # Same as above, but supports 16K tokens
+            'gpt-5-nano',            # Nano version of GPT-5 (fastest, most efficient)
+            'gpt-5-mini',            # Mini version of GPT-5 (balanced performance)
+            'gpt-5',                 # Full GPT-5 model
+            "gpt-4o",               # GPT-4 Omni (fastest, multimodal, cost-efficient)
+            "gpt-4-turbo",          # Optimized GPT-4 (cheaper & faster than GPT-4)
+            "gpt-4",                # Original GPT-4 (no longer updated)
+            "gpt-3.5-turbo",        # General-purpose model (great balance of speed & cost)
+            "gpt-3.5-turbo-16k"     # Same as above, but supports 16K tokens
         ],
         'claude': ['claude-3-opus-20240229'],
         'openrouter': [

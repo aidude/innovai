@@ -4,8 +4,8 @@ Unified error handling for the data creation package.
 from typing import Optional, Type, TypeVar
 from functools import wraps
 import time
-from .logging_utils import default_logger
-from .config import config
+from logging_utils import default_logger
+from config import config
 
 # Generic type for the exception
 E = TypeVar('E', bound=Exception)

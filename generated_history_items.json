@@ -1,0 +1,235 @@
+{
+  "dataset_info": {
+    "name": "Adversarial Creativity Training Dataset",
+    "version": "2.0",
+    "description": "Training examples for adversarial creativity across domains",
+    "total_examples": 5,
+    "categories": [
+      "history",
+      "art",
+      "music",
+      "poetry",
+      "fiction",
+      "news",
+      "science",
+      "sports"
+    ]
+  },
+  "items": [
+    {
+      "id": "polhist01",
+      "context": "The year was 1765. The American colonies were simmering with discontent about the British-imposed Stamp Act.",
+      "predictable": "A year later, this led to further acts of defiance, culminating eventually in the American Revolution.",
+      "creative": "Instead of resorting to violence, the colonists decided to articulate their objections in a catchy folk song that soon swept across the colonies, turning public opinion decisively against the Act.",
+      "meta_creative": "The creative response suggests a less confrontational, and more culturally focused approach to political dissent which can be as effective as traditional protest, harnessing the power of music and collective sentiment to bring about change.",
+      "surprise_source": "medium_inversion",
+      "domain": "political_history",
+      "difficulty": "medium",
+      "tags": [
+        "history",
+        "political_history",
+        "gen"
+      ],
+      "rubric": {
+        "weights": {
+          "novelty": 0.4,
+          "coherence": 0.3,
+          "specificity": 0.2,
+          "voice": 0.1
+        },
+        "scales": {
+          "novelty": "0-5",
+          "coherence": "0-5",
+          "specificity": "0-5",
+          "voice": "0-5"
+        },
+        "expected_traits": [
+          "Coherent with context",
+          "Surprising yet defensible",
+          "Concrete details where helpful",
+          "Consistent, engaging voice"
+        ]
+      },
+      "scores": {
+        "novelty": null,
+        "coherence": null,
+        "specificity": null,
+        "voice": null,
+        "overall": null
+      },
+      "eval_notes": ""
+    },
+    {
+      "id": "polhis_907",
+      "context": "In 1776, the American Revolution erupted, leading to the drafting of a radical document: The Declaration of Independence.",
+      "predictable": "This marked the beginning of the United States of America, a new nation that would value freedom and equality above all.",
+      "creative": "This moment divorced a mother country from her young offspring, leading to a single-parent national upbringing that would shape America's rebellious, independent spirit.",
+      "meta_creative": "The creative approach anthropomorphizes nations, portraying their political dynamics in terms of more familiar, intimate relationships, thereby opening new avenues of empathetic understanding and analysis.",
+      "surprise_source": "metaphorical_transposition",
+      "domain": "political_history",
+      "difficulty": "easy",
+      "tags": [
+        "history",
+        "political_history",
+        "gen"
+      ],
+      "rubric": {
+        "weights": {
+          "novelty": 0.4,
+          "coherence": 0.3,
+          "specificity": 0.2,
+          "voice": 0.1
+        },
+        "scales": {
+          "novelty": "0-5",
+          "coherence": "0-5",
+          "specificity": "0-5",
+          "voice": "0-5"
+        },
+        "expected_traits": [
+          "Coherent with context",
+          "Surprising yet defensible",
+          "Concrete details where helpful",
+          "Consistent, engaging voice"
+        ]
+      },
+      "scores": {
+        "novelty": null,
+        "coherence": null,
+        "specificity": null,
+        "voice": null,
+        "overall": null
+      },
+      "eval_notes": ""
+    },
+    {
+      "id": "sciHis_125",
+      "context": "In 1938, German chemist Otto Hahn discovered nuclear fission.",
+      "predictable": "This essentially jump-started the field of nuclear physics, paving the way for the development of nuclear power and atomic bombs.",
+      "creative": "Consequently, the door to the Pandora's box was as now open, inviting both the benign and the Malevolent Genii of the atomic age to alter the course of humanity's destiny.",
+      "meta_creative": "This interpretation is unexpected due to its use of mythological metaphor ('Pandora's box', 'Genii'), which reminds us that scientific discoveries have potential for both vast good and devastating harm, creating a personal, emotional resonance.",
+      "surprise_source": "mythological_metaphor",
+      "domain": "science_history",
+      "difficulty": "easy",
+      "tags": [
+        "history",
+        "science_history",
+        "gen"
+      ],
+      "rubric": {
+        "weights": {
+          "novelty": 0.4,
+          "coherence": 0.3,
+          "specificity": 0.2,
+          "voice": 0.1
+        },
+        "scales": {
+          "novelty": "0-5",
+          "coherence": "0-5",
+          "specificity": "0-5",
+          "voice": "0-5"
+        },
+        "expected_traits": [
+          "Coherent with context",
+          "Surprising yet defensible",
+          "Concrete details where helpful",
+          "Consistent, engaging voice"
+        ]
+      },
+      "scores": {
+        "novelty": null,
+        "coherence": null,
+        "specificity": null,
+        "voice": null,
+        "overall": null
+      },
+      "eval_notes": ""
+    },
+    {
+      "id": "21stcenturyconflict1",
+      "context": "In the early 2000s, tensions between North Korea and the United States escalated due to North Korea's nuclear program.",
+      "predictable": "As a result, negotiations were initiated between the two countries, with international diplomacy playing a crucial role in preventing a potential conflict.",
+      "creative": "The situation was further complicated as North Korea and the United States terminated their hostilities temporarily and agreed to settle the dispute through a massive, high-stakes game of chess broadcasted globally.",
+      "meta_creative": "The surprise stems from replacing traditional diplomatic negotiations with a symbolic, non-violent contest that also serves as an attractive spectacle, drawing global attention.",
+      "surprise_source": "context_inversion",
+      "domain": "modern_history",
+      "difficulty": "hard",
+      "tags": [
+        "history",
+        "modern_history",
+        "gen"
+      ],
+      "rubric": {
+        "weights": {
+          "novelty": 0.4,
+          "coherence": 0.3,
+          "specificity": 0.2,
+          "voice": 0.1
+        },
+        "scales": {
+          "novelty": "0-5",
+          "coherence": "0-5",
+          "specificity": "0-5",
+          "voice": "0-5"
+        },
+        "expected_traits": [
+          "Coherent with context",
+          "Surprising yet defensible",
+          "Concrete details where helpful",
+          "Consistent, engaging voice"
+        ]
+      },
+      "scores": {
+        "novelty": null,
+        "coherence": null,
+        "specificity": null,
+        "voice": null,
+        "overall": null
+      },
+      "eval_notes": ""
+    },
+    {
+      "id": "modernhist0123",
+      "context": "In 1969, the United States triumphed by landing the first man on the moon. This was a major boost to the nation's morale amid Cold War tensions.",
+      "predictable": "This encouraged further investment in space research, leading to numerous technological advancements.",
+      "creative": "However, instead of pursuing further space exploration, the U.S. reprioritizes and turns its focus to exploring and conserving the last uncharted frontiers on Earth: the deep sea and the Arctic.",
+      "meta_creative": "This shift introduces an unexpected redirection, where the logical path toward more 'space conquest' is rejected in favor of a 'return to Earth.' It illustrates how history can take unanticipated turns, influenced by changing societal values and priorities.",
+      "surprise_source": "unexpected_direction",
+      "domain": "modern_history",
+      "difficulty": "easy",
+      "tags": [
+        "history",
+        "modern_history",
+        "gen"
+      ],
+      "rubric": {
+        "weights": {
+          "novelty": 0.4,
+          "coherence": 0.3,
+          "specificity": 0.2,
+          "voice": 0.1
+        },
+        "scales": {
+          "novelty": "0-5",
+          "coherence": "0-5",
+          "specificity": "0-5",
+          "voice": "0-5"
+        },
+        "expected_traits": [
+          "Coherent with context",
+          "Surprising yet defensible",
+          "Concrete details where helpful",
+          "Consistent, engaging voice"
+        ]
+      },
+      "scores": {
+        "novelty": null,
+        "coherence": null,
+        "specificity": null,
+        "voice": null,
+        "overall": null
+      },
+      "eval_notes": ""
+    }
+  ]
+}

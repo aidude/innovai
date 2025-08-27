@@ -7,8 +7,8 @@ import json
 from pathlib import Path
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from .llm_clients import create_llm_client, LLMClient
-from .data_logger import DataLogger
+from llm_clients import create_llm_client, LLMClient
+from data_logger import DataLogger
 
 # Set up logging
 logging.basicConfig(

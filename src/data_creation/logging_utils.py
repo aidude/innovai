@@ -4,7 +4,7 @@ Centralized logging configuration for the data creation package.
 import logging
 from pathlib import Path
 from typing import Optional
-from .config import config
+from config import config
 
 
 def setup_logger(
